@@ -7,18 +7,30 @@ body
 
 h1
 {
-  margin-top: 0;
-  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem; /* 1rem = 16px here we needed 90px. 90/60=5.625 */
+  margin-top: 50px;    /* rem is suitable for text size but px is suitable for spacing we can use rem,em,px,% */
+  font-family: 'Pacifico', cursive;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+.web-developer
+{
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
 }
 
 h2
 {
   font-family: 'Montserrat', sans-serif;
+  color: #11999E;
 }
 
 h3
 {
   font-family: 'Montserrat', sans-serif;
+  color: #11999E;
 }
 
 .top-container
@@ -45,4 +57,14 @@ h3
   position: absolute;
   left: 300px;
   bottom: 300px;
+}
+
+.footer-link
+{
+  color: #11999E;
+}
+
+.bottom-container
+{
+  background-color: #66BFBF;
 }
