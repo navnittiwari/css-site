@@ -5,6 +5,16 @@ body
   font-family: 'Merriweather', serif;
 }
 
+hr
+{
+  background-color: none;
+  border-style: none;
+  border-color: grey;
+  border-width: 5px;
+  border-top-style: dotted;
+  width: 10%;
+}
+
 h1
 {
   font-size: 5.625rem; /* 1rem = 16px here we needed 90px. 90/60=5.625 */
@@ -24,7 +34,7 @@ h1
 h2
 {
   font-family: 'Montserrat', sans-serif;
-  color: #11999E;
+  color: #66BFBF;
 }
 
 h3
@@ -66,6 +76,20 @@ h3
   text-align: left;
 }
 
+.developer-img
+{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.marketing-img
+{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
 .footer-link
 {
   color: #11999E;
@@ -75,3 +99,9 @@ h3
 {
   background-color: #66BFBF;
 }
+
+p
+{
+  line-height: 2;
+}
+
