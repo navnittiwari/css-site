@@ -1,5 +1,6 @@
 body
 {
+  color: #40514E;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
@@ -35,6 +36,7 @@ h2
 {
   font-family: 'Montserrat', sans-serif;
   color: #66BFBF;
+  padding-bottom: 20px;
 }
 
 h3
@@ -59,14 +61,19 @@ h3
 {
   position: absolute;
   right: 300px;
-  top: 50px;
+  top: 40px;
 }
 
 .bottom-cloud
 {
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
+}
+
+.middle-container
+{
+  padding: 100px 0;
 }
 
 .skill-row
@@ -74,6 +81,12 @@ h3
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
+}
+
+.intro
+{
+  width: 30%;
+  margin: auto;
 }
 
 .developer-img
@@ -92,7 +105,7 @@ h3
 
 .footer-link
 {
-  color: #11999E;
+  color: #00818A;
 }
 
 .bottom-container
@@ -104,4 +117,3 @@ p
 {
   line-height: 2;
 }
-
